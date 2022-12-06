@@ -39,21 +39,29 @@ On utilisera pour cela l'endpoint `https://dev.to/api/articles?tag={xxx}` qui no
 
 <br/>
 
-### 📝 Ma Liste - Page perso d'articles
+### 🔖 Ma Liste - Page perso d'articles
 
-- [ ] Système d'ajout d'un article en local.
-  - [ ] Affichage d'un formulaire d'ajout d'un article (titre, auteur, date de publication, description, tags et image).
-  - [ ] Système de validation du formulaire.
-  - [ ] Affichage d'un message de succès lors de l'ajout.
+- [ ] Affichage de vos articles ajoutés dans une grille sous forme de card.
 - [ ] Système de suppression des articles.
   - [ ] Affichage d'un message de succès lors de la suppression.
 - [ ] Système de recherche des articles.
+- [ ] Système de filtre des articles.
 - [ ] Système de tri en fonction de la date de publication des articles.
 
 <br/>
 
-### Autres 🤷🏼‍
+### 📝 Formulaire d'ajout d'articles
 
+- [ ] Système d'ajout d'un article en local.
+  - [ ] Affichage d'un formulaire d'ajout d'un article ( avec possiblement titre, auteur, date de publication, description, tags, image et lien vers l'article).
+  - [ ] Système de validation du formulaire.
+  - [ ] Affichage d'un message de succès lors de l'ajout.
+
+<br/>
+
+### 🤷🏼‍ Autres
+
+- [ ] Mise en place d'un thème sombre et d'un thème clair sur l'application
 - [ ] Ajout de style et/ou animations sur les composants.
 - [ ] Déploiement de l'application sur vercel.
 - [ ] Mise à disposition du code sur github.
@@ -100,4 +108,5 @@ This command will automatically format your code. Some format errors generated b
 ### 🔍 `npm run lint`
 
 Starts the code verification by running eslint (`npm run lint:fix`) and prettier (`npm run lint:format`).<br /><br />
+
 🚨 **Warning :** This command must be executed before each commit !
