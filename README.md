@@ -71,6 +71,9 @@ On utilisera pour cela l'endpoint `https://dev.to/api/articles?tag={xxx}` qui no
 
 ## 🎁 Bonus ( Les points suivants vous permettrons d'avoir plus que la note de base attribuée avec les features ci-dessus )
 
+- [ ] Intégrer un nouveau hook react (`useCallback`, `useMemo` ...)
+- [ ] Utiliser un pattern children react
+- [ ] Créer votre propre hook pour gérer le fetching des données à partir d'un tag
 - [ ] Système de pagination.
 - [ ] Système de modification des articles.
 - [ ] Mise en place et écriture de tests d'intégration sur un des composants.
