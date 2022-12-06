@@ -1,6 +1,6 @@
 <p align="center">
   <br />
-     <img width="600" src="https://user-images.githubusercontent.com/60877626/117204870-2e461300-adf1-11eb-9b51-89a2bbf762ac.png" alt="Template logo" />
+     <img width="600" src="https://user-images.githubusercontent.com/60877626/206020600-e45389cb-691f-4f12-83dd-48f0b1d91ec5.png" alt="Template logo" />
 </p>
 <br/>
 <p align="center">
@@ -8,7 +8,6 @@
   <p align="center">This project was bootstrapped with <a href="https://github.com/vitejs/vite/tree/main/packages/create-app">@vite/create-app</a> </p>
 </p>
 <br/>
-<hr>
 <p align="center">
   <h2 align="center" style="font-weight:bold">📰 Gestionnaire de veille 📰</h2>
 </p>
@@ -16,12 +15,16 @@
 
 En partant du template fourni on souhaite développer une application de gestion d'articles (tech, produit design, autre...) qui vous permettra de gérer vos collections d'articles et de rester informés des dernières nouveautés dans le domaine. L'application devra vous permettre, de rechercher vos articles tech préférés, et d'en sauvegarder des nouveaux. On souhaite que l'application soit aussi facile à utiliser qu'attrayante ! ✨
 
+<br/>
+
 ## 🏆 Features
 
 On souhaite utiliser l'API [Dev to](https://dev.to/api/) pour récupérer les articles.
 On utilisera pour cela l'endpoint `https://dev.to/api/articles?tag={xxx}` qui nous permettra de récupérer les 30 derniers articles liés au tag `{xxx}`.
 
 **👀 Exemple :** https://dev.to/api/articles?tag=react 🔗
+
+<br/>
 
 ### 🗞 Home page - Liste des articles dev.to
 
@@ -34,6 +37,8 @@ On utilisera pour cela l'endpoint `https://dev.to/api/articles?tag={xxx}` qui no
 - [ ] Système de tri en fonction de la date de publication des articles.
 - [ ] Accès rapide à la page Ma Liste.
 
+<br/>
+
 ### 📝 Ma Liste - Page perso d'articles
 
 - [ ] Système d'ajout d'un article en local.
@@ -45,11 +50,15 @@ On utilisera pour cela l'endpoint `https://dev.to/api/articles?tag={xxx}` qui no
 - [ ] Système de recherche des articles.
 - [ ] Système de tri en fonction de la date de publication des articles.
 
+<br/>
+
 ### Autres 🤷🏼‍
 
 - [ ] Ajout de style et/ou animations sur les composants.
 - [ ] Déploiement de l'application sur vercel.
 - [ ] Mise à disposition du code sur github.
+
+<br/>
 
 ## 🎁 Bonus
 
@@ -57,6 +66,8 @@ On utilisera pour cela l'endpoint `https://dev.to/api/articles?tag={xxx}` qui no
 - [ ] Système de modification des articles.
 - [ ] Mise en place et écriture de tests d'intégration sur un des composants.
 - [ ] Application responsive.
+
+<br/>
 
 ## 📜 Available Scripts
 <br/>
