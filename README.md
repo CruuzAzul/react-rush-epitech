@@ -1,17 +1,65 @@
 <p align="center">
   <br />
      <img width="600" src="https://user-images.githubusercontent.com/60877626/117204870-2e461300-adf1-11eb-9b51-89a2bbf762ac.png" alt="Template logo" />
-     <p align="center" style="font-weight:bold">TEMPLATE CREATED BY LA CRUZ <a href="https://lacruz.org"><img width="20" src="https://user-images.githubusercontent.com/60877626/117205137-7ebd7080-adf1-11eb-9755-9b541044e2f3.png"></a></p>
 </p>
 <br/>
 <p align="center">
-  <h1 align="center" style="font-weight:bold">⚡ Template React + Vite + Eslint + Prettier ⚡</h1>
+  <h1 align="center" style="font-weight:bold">🚀 Template Rush Stack JS 🚀</h1>
   <p align="center">This project was bootstrapped with <a href="https://github.com/vitejs/vite/tree/main/packages/create-app">@vite/create-app</a> </p>
 </p>
 <br/>
+<hr>
+<p align="center">
+  <h2 align="center" style="font-weight:bold">📰 Gestionnaire de veille 📰</h2>
+</p>
+<br/>
+
+En partant du template fourni on souhaite développer une application de gestion d'articles (tech, produit design, autre...) qui vous permettra de gérer vos collections d'articles et de rester informés des dernières nouveautés dans le domaine. L'application devra vous permettre, de rechercher vos articles tech préférés, et d'en sauvegarder des nouveaux. On souhaite que l'application soit aussi facile à utiliser qu'attrayante ! ✨
+
+## 🏆 Features
+
+On souhaite utiliser l'API [Dev to](https://dev.to/api/) pour récupérer les articles.
+On utilisera pour cela l'endpoint `https://dev.to/api/articles?tag={xxx}` qui nous permettra de récupérer les 30 derniers articles liés au tag `{xxx}`.
+
+**👀 Exemple :** https://dev.to/api/articles?tag=react 🔗
+
+### 🗞 Home page - Liste des articles dev.to
+
+- [ ] Fetching des données d'articles en fonction de la recherche de l'utilisateur avec une valeur par default (`React`).
+- [ ] Affichage des articles dans une grille sous forme de card.
+  - [ ] Affichage des informations de l'article (titre, auteur, date de publication, description, tags et image).
+  - [ ] Redirection vers l'article au clic.
+  - [ ] Affichage d'un loader pendant le chargement des données.
+- [ ] Système de filtre des articles.
+- [ ] Système de tri en fonction de la date de publication des articles.
+- [ ] Accès rapide à la page Ma Liste.
+
+### 📝 Ma Liste - Page perso d'articles
+
+- [ ] Système d'ajout d'un article en local.
+  - [ ] Affichage d'un formulaire d'ajout d'un article.
+  - [ ] Système de validation du formulaire.
+  - [ ] Affichage d'un message de succès lors de l'ajout.
+- [ ] Système de suppression des articles.
+  - [ ] Affichage d'un message de succès lors de la suppression.
+- [ ] Système de recherche des articles.
+- [ ] Système de tri en fonction de la date de publication des articles.
+
+### Autres 🤷🏼‍
+
+- [ ] Ajout de style et/ou animations sur les composants.
+- [ ] Déploiement de l'application sur vercel.
+- [ ] Mise à disposition du code sur github.
+
+## 🎁 Bonus
+
+- [ ] Système de pagination.
+- [ ] Système de modification des articles.
+- [ ] Mise en place et écriture de tests d'intégration sur un des composants.
+- [ ] Application responsive.
 
 ## 📜 Available Scripts
-
+<br/>
 In the project directory, you can run : <br /><br />
 
 ### ⚡ `npm run dev`
@@ -40,4 +88,4 @@ This command will automatically format your code. Some format errors generated b
 ### 🔍 `npm run lint`
 
 Starts the code verification by running eslint (`npm run lint:fix`) and prettier (`npm run lint:format`).<br /><br />
-🚨 **Warning :** This command must be executed before each commit!
+🚨 **Warning :** This command must be executed before each commit !
