@@ -63,7 +63,7 @@ On utilisera pour cela l'endpoint `https://dev.to/api/articles?tag={xxx}` qui no
 
 - [ ] Mise en place d'un thème sombre et d'un thème clair sur l'application
 - [ ] Ajout de style et/ou animations sur les composants.
-- [ ] Déploiement de l'application sur vercel.
+- [ ] Déploiement de l'application sur vercel. [🛟 AIDE](https://vercel.com/docs/concepts/git/vercel-for-github)
 - [ ] Mise à disposition du code sur github.
 - [ ] On souhaite voir un code fonctionnel, propre, et organisé 😉
 
