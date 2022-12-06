@@ -42,7 +42,7 @@ On utilisera pour cela l'endpoint `https://dev.to/api/articles?tag={xxx}` qui no
 ### 📝 Ma Liste - Page perso d'articles
 
 - [ ] Système d'ajout d'un article en local.
-  - [ ] Affichage d'un formulaire d'ajout d'un article.
+  - [ ] Affichage d'un formulaire d'ajout d'un article (titre, auteur, date de publication, description, tags et image).
   - [ ] Système de validation du formulaire.
   - [ ] Affichage d'un message de succès lors de l'ajout.
 - [ ] Système de suppression des articles.
@@ -57,10 +57,11 @@ On utilisera pour cela l'endpoint `https://dev.to/api/articles?tag={xxx}` qui no
 - [ ] Ajout de style et/ou animations sur les composants.
 - [ ] Déploiement de l'application sur vercel.
 - [ ] Mise à disposition du code sur github.
+- [ ] On souhaite voir un code fonctionnel, propre, et organisé 😉
 
 <br/>
 
-## 🎁 Bonus
+## 🎁 Bonus ( Les points suivants vous permettrons d'avoir plus que la note de base attribuée avec les features ci-dessus )
 
 - [ ] Système de pagination.
 - [ ] Système de modification des articles.
